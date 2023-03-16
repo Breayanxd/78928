@@ -18,7 +18,7 @@ void setup() {
   //Se verifica la conexion
   while(WiFi.status()!=WL_CONNECTED){
     delay(500);
-    Serial.println(".");
+    Serial.print(".");
   }
   
   //Lograda la conexion muestra
