@@ -4,8 +4,8 @@
 #include <ESPAsyncWebSrv.h>
 
 DHTesp dht;
-const char* ssid="Redmi";
-const char* password="12345678";
+const char* ssid="Megacable-DC90";
+const char* password="7YLezkUE93";
 String estado = "";
 float humedad = 0.0;
 float temperatura = 0.0;
