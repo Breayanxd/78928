@@ -5,8 +5,8 @@
 #define DHTpin 15
 
 //variables WiFi
-const char* ssid="Megacable-DC90";
-const char* password="7YLezkUE93";
+const char* ssid="dr-rojano";
+const char* password="78928-tw";
 
 //ServidorWeb
 AsyncWebServer server(80);

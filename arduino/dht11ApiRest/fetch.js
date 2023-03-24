@@ -1,4 +1,4 @@
-const API_URL = "http://192.168.1.77/";
+const API_URL = "http://192.168.0.112/";
 
 function cargarContenido(ruta) {
     if(ruta == "inicio"){
