@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container">
+        <div id="data">
+            <p>Coordenadas de incio: 19.590286923545793, -96.9424010224297</p>
+            <div>
+                <label for="">Latitud</label>
+                <input type="text" name="latitud" id="idLatitud" placeholder="Teclea la latitud del marcador">
+                <label for="">Longitud</label>
+                <input type="text" name="longitud" id="idLongitud" placeholder="Teclea la longitud del marcador">
+                <label for="">Mensaje</label>
+                <input type="text" name="mensaje" id="idMensaje" placeholder="Teclea el mensaje del popup">
+                <button onclick="addMarker()">Crear</button>
+            </div>
+            <div>
+                <label for="">Borrar Marcador</label>
+                <input type="number" name="idMarcador" id="idMarcador" placeholder="Teclea el id del marcador">
+                <button onclick="deleteMarker()">Borrar</button>
+            </div>
+            <p id="idCoordenadas"></p>
+        </div>
+        <div id="map"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

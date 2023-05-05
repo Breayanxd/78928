@@ -1,0 +1,22 @@
+#map{ 
+    height: 480px;
+    width: 700px;
+}
+#container{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#data{
+    display: inline-block;
+    width: 250px;
+}
+input{
+    display: block;
+    width: 200px;
+    margin-bottom: 10px;
+}
+button{
+    margin: 10px;
+}
